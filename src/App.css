@@ -25,3 +25,27 @@
   border-radius: 8px;
 }
 
+.task-board .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-board .task input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-board button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-board button:hover {
+  background-color: #0056b3;
+}
