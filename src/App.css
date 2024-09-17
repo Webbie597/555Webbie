@@ -1,13 +1,19 @@
-.task-board {
-  margin: 20px;
-  padding: 20px;
+.task-board input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
   border: 1px solid #ccc;
-  border-radius: 8px;
 }
 
-.task-list .task {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-top: 5px;
+.task-board button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-board button:hover {
+  background-color: #0056b3;
 }
