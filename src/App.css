@@ -17,3 +17,11 @@
 .task-board button:hover {
   background-color: #0056b3;
 }
+
+.calendar-view {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
